@@ -1,4 +1,5 @@
 import java.io.*;  
+
 public class BufferedReaderExampleInputFromFile {  
     public static void main(String args[])throws Exception{    
           FileReader fr=new FileReader("TestextFile.txt");    
