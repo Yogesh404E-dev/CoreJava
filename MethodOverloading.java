@@ -15,3 +15,5 @@ class MethodOverloading
         obj.display(20);//method with one paramter 
     }   
 }
+//output 
+//https://i.imgur.com/Yo400jP.png
