@@ -5,7 +5,7 @@ class A{
     }
     //parameterized constructor
     A(int a){
-        System.out.println("I m constorer 2 and a="+a);
+        System.out.println("I m constructor 2 and a="+a);
     }
 }
 
@@ -14,6 +14,6 @@ class ConstructorOverloading{
     public static void main(String agrs[]){
 
         A obj1 = new A();//call default construcotr
-        A obj2 = new A(10); //parameterized 
+        A obj2 = new A(10); //call parameterized constructor 
     }
 }
