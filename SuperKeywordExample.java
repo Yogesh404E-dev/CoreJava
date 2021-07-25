@@ -1,6 +1,9 @@
 class P
 {
     int a = 01;
+    P(){
+         System.out.println("I am from Parent construntor ");
+    }
     void display()
     {
         System.out.println("I am from P class ");
@@ -9,6 +12,9 @@ class P
 class C extends P 
 {
    int a = 20;
+   C(){
+       System.out.println("I am from Child construntor ");
+   }
     void display()
     {
         System.out.println("I am from C class ");
@@ -32,3 +38,4 @@ class SuperKeywordExample
 }
 
 // o/p --> https://i.imgur.com/xc49bY3.png
+// o/p -->  with constructor https://i.imgur.com/mcB3RQY.png
